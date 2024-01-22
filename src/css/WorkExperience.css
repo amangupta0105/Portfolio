@@ -1,0 +1,53 @@
+/* WorkExperience.css */
+
+.workexperience {
+    margin-top: 40px;   
+  }
+  
+  .resume-icons{
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+
+  .workexperience-heading {
+    font-size: 1.7rem;
+    color: #333;
+  }
+  
+  .experience-box {
+    margin-left: 50px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .experience-box h4 {
+    color: #037fff;
+    font-size: 1.3rem;
+    margin: -2px 0 0 -10px;
+  }
+  
+  .experience-box h5 {
+    color: #555;
+    font-size: 1.2rem;
+    margin: 17px 0 2px -10px;
+  }
+  .experience-box p{
+    color: #555;
+  }
+  .experience-box ul {
+    list-style-type: "- ";
+  }
+  
+  .experience-box li {
+    color: #666;
+    margin-bottom: 12px;
+    margin-right: 10px;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .experience-box {
+      width: 100%; /* Make the boxes stack on smaller screens */
+    }
+  }
+  

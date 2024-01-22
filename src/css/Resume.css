@@ -1,0 +1,83 @@
+/* Resume.css */
+
+.resume {
+    padding: 50px;
+    background-color: #f9f9f9;
+    margin-left: 12% ;
+    /* height: 100vh; */
+    width: 100vw;
+  }
+  
+  .skills-section {
+    margin-top: 30px;
+  }
+  
+  .skills-heading {
+    color: #333;
+    font-size: 2.4rem;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .showbar {
+    display: flex;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 18px;
+  }
+  
+  .progress-html {
+    height: 100%;
+    width: 95%; /* Set the width based on your progress (e.g., 50% for half progress) */
+    background-color: #00bcd4; /* Set your desired progress bar color */
+  }
+  .progress-css {  
+    height: 100%;
+    width: 90%; /* Set the width based on your progress (e.g., 50% for half progress) */
+    background-color: #00bcd4; /* Set your desired progress bar color */
+  }
+  .progress-javascript {
+    height: 100%;
+    width: 95%; /* Set the width based on your progress (e.g., 50% for half progress) */
+    background-color: #00bcd4; /* Set your desired progress bar color */
+  }
+  .progress-jquery {
+    height: 100%;
+    width: 80%; /* Set the width based on your progress (e.g., 50% for half progress) */
+    background-color: #00bcd4; /* Set your desired progress bar color */
+  }
+  .progress-dom {
+    height: 100%;
+    width: 85%; /* Set the width based on your progress (e.g., 50% for half progress) */
+    background-color: #00bcd4; /* Set your desired progress bar color */
+  }
+  .progress-react {
+    height: 100%;
+    width: 90%; /* Set the width based on your progress (e.g., 50% for half progress) */
+    background-color: #00bcd4; /* Set your desired progress bar color */
+  }
+  
+  .html5,.css3,.javascript,.react,.dom,.jquery{
+    width: 50%;
+    /* padding: 10px; */
+  }
+
+  .resume-section{
+    padding-top: 35px;
+  }

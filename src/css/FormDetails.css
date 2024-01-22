@@ -1,0 +1,47 @@
+/* FormDetails.css */
+
+.form-details {
+    width: 100%;
+  }
+  
+  .form-details h2 {
+    color: #333;
+  }
+  
+  form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #00bcd4; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: green; /* Set your desired hover background color */
+  }
+  
